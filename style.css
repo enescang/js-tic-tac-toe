@@ -1,0 +1,27 @@
+
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+  }
+  
+  .grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+  }
+  
+  .player-1 {
+    background-image: url('burger.png');
+    background-size: cover;
+  }
+  
+  
+  .player-2 {
+    background-image: url('fries.png');
+    background-size: cover;
+  }
